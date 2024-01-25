@@ -83,24 +83,4 @@ footer p {
     color: #ccc;
 
 }
-@media only screen and (max-width: 390px) {
-    .overlay-image {
-        height: 50%;
-        width: 39%;
-        margin-left: 26%;
-    }
-    .overlay-text {
-        top: 20%;
-        left: 5%;
-        font-size: 18px;
-    }
-    .overlay-button {
-        top: 35%;
-        left: 15%;
-        padding: 7px 15px;
-        font-size: 12px;
-    }
-    footer {
-        font-size: 10px;
-    }
-}
+
