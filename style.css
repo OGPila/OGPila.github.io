@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url("images/fondo.jpg");
+    background-image: url("fondo.jpg");
     overflow-y: hidden;
 
 }
@@ -18,7 +18,7 @@
     margin: 0;
     height: 100%;
     width: 75%;
-    background-image: url("images/ordenador.png");
+    background-image: url("ordenador.png");
     margin-left: 25%;
     background-size: cover;
     opacity: 0.8;
