@@ -83,3 +83,47 @@ footer p {
     color: #ccc;
 
 }
+
+@media (max-width: 768px) {
+    #body1 {
+        width: 100%;
+    }
+    .overlay-text {
+        /* ... tu código existente ... */
+        font-size: 24px; /* Ajusta según tus necesidades */
+        top: 10%; /* Ajusta según tus necesidades */
+        left: 5%; /* Ajusta según tus necesidades */
+    }
+    
+    .overlay-button {
+        /* ... tu código existente ... */
+        padding: 10px 20px; /* Ajusta según tus necesidades */
+        font-size: 14px; /* Ajusta según tus necesidades */
+        top: 25%; /* Ajusta según tus necesidades */
+        left: 10%; /* Ajusta según tus necesidades */
+    }
+
+    footer {
+        /* ... tu código existente ... */
+        padding-top: 5px; /* Ajusta según tus necesidades */
+        padding-left: 2%; /* Ajusta según tus necesidades */
+    }
+    
+    h1.h-footer {
+        /* ... tu código existente ... */
+        font-size: 16px; /* Ajusta según tus necesidades */
+    }
+    
+    .linea-footer {
+        /* ... tu código existente ... */
+        width: 50%; /* Ajusta según tus necesidades */
+    }
+    
+    footer p {
+        /* ... tu código existente ... */
+        margin-top: 5px; /* Ajusta según tus necesidades */
+    }
+
+
+
+}
