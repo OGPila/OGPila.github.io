@@ -1,10 +1,85 @@
-body{
-    height: 100%;
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+
+
+/* Inicio */
+#body1 {
     margin: 0;
-    justify-content: center;
-    overflow-x: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("images/fondo.jpg");
+    overflow-y: hidden;
+
 }
 
-.h1{
-    color: red;
+.overlay-image {
+
+    margin: 0;
+    height: 100%;
+    width: 75%;
+    background-image: url("images/ordenador.png");
+    margin-left: 25%;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+    font-family: 'Rubik Burned', system-ui;
+    font-size: 40px;
+}
+
+.overlay-button {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: rgba(200, 200, 200, 0.2);
+    color: #3498db;
+    border: solid white 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Rubik Burned', system-ui;
+}
+
+/* Pagina de Pelis */
+
+
+
+
+/* footer */
+footer {
+
+    height: 20%;
+    font-size: 12px;
+    background-color: rgb(32, 32, 38);
+    padding-top: 0.7%;
+    padding-left: 1%;
+
+}
+
+h1.h-footer {
+s
+    color: #ccc;
+    font-family: 'Rubik Burned', system-ui;
+    margin-bottom: 2%;
+
+}
+
+.linea-footer {
+    border-bottom: 2px solid #ccc;
+    width: 20%;
+
+}
+
+footer p {
+    margin-top: 1%;
+    color: #ccc;
+
 }
