@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url("fondo.jpg");
+    background-image: url("images/fondo.jpg");
     overflow-y: hidden;
 
 }
@@ -18,7 +18,7 @@
     margin: 0;
     height: 100%;
     width: 75%;
-    background-image: url("ordenador.png");
+    background-image: url("images/ordenador.png");
     margin-left: 25%;
     background-size: cover;
     opacity: 0.8;
@@ -65,7 +65,7 @@ footer {
 }
 
 h1.h-footer {
-s
+
     color: #ccc;
     font-family: 'Rubik Burned', system-ui;
     margin-bottom: 2%;
